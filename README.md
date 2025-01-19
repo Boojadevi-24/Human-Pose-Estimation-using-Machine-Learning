@@ -16,9 +16,12 @@ Python: The core programming language used to develop the project, with librarie
 OpenCV: This is an open-source computer vision library that enables image and video processing. OpenCV is used to capture real-time video frames and pre-process them for pose detection.
 ![Image](https://github.com/user-attachments/assets/80b91e3c-2e6b-433b-ad47-8ceb2c3cb059)
 
+
 ![Image](https://github.com/user-attachments/assets/6c522abf-faff-488e-be18-e37246ba15fe)
 
 HOW IT WORKS:
+
+
 MediaPipe uses TensorFlow Lite in the backend to perform pose estimation efficiently. The process begins with a person detection module, which identifies the region of interest (ROI) in the frame containing the human body. This cropped ROI is then passed to the pose estimator, which predicts the keypoints or landmarks within the human body. MediaPipe Pose Estimation detects a total of 33 keypoints on the body, including key regions such as the head, shoulders, elbows, wrists, hips, knees, and ankles.
 
 Key Features of MediaPipe Pose Estimation: 1.3D Pose Estimation: MediaPipe Pose estimates the x, y, and z coordinates for each landmark, where:
